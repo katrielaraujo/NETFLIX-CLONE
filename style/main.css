@@ -55,6 +55,10 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.cabecalho{
+    flex-grow: 1;
+}
+
 .filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
@@ -71,6 +75,7 @@ header nav a:hover{
 .botoes{
     display: flex;
     direction: row;
+    flex-grow: 2;
 }
 
 .botao{
